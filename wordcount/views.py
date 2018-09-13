@@ -20,6 +20,4 @@ def count(request):
         if maxv < worddic[word]:
             maxv = worddic[word]
     sortedic = sorted(worddic.items(),key=operator.itemgetter(1), reverse = True)
-
-
     return render(request,'count.html',{'fulltext':fulltext,'count':len(wordlist),'sortedic':sortedic,'max':maxv})
