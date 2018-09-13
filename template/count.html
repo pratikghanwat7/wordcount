@@ -1,0 +1,13 @@
+<h1>therer are {{ count }} words in your text.</h1>
+<br/>
+<h2>your text</h2>
+{{ fulltext }}
+
+
+<br/>
+{%for word, total in sortedic%}
+{{ word }}
+{{ total}}
+<br/>
+{%endfor%}
+{{ max }}
