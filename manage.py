@@ -14,5 +14,9 @@ if __name__ == '__main__':
         ) from exc
     if datetime >= datetime:
         print('i am here')
+<<<<<<< HEAD
         print('in master')
+=======
+        print("HFC2108 ")
+>>>>>>> HFC2108
     execute_from_command_line(sys.argv)
