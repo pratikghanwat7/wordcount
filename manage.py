@@ -19,5 +19,9 @@ if __name__ == '__main__':
 =======
         print("HFC2108 ")
         print("using git desktop")
+
+        a = {}
+        
 >>>>>>> HFC2108
+
     execute_from_command_line(sys.argv)
